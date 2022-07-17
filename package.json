@@ -2,14 +2,11 @@
   "name": "server",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "nodemon app.js",
     "start": "node app.js",
     "build":"node app.js"
-  },
-  "engines": {
-    "node":"v16.16.0"
   },
   "keywords": [],
   "author": "",
