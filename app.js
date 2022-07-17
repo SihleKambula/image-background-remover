@@ -10,4 +10,4 @@ app.listen(PORT, () => {
 });
 app.use(express.json());
 app.use(cors());
-app.use(AIroutes);
+app.use("/imageai", AIroutes);

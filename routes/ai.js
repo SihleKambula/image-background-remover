@@ -5,14 +5,11 @@ const route = express.Router();
 const data = new formData();
 
 route.get("/", (req, res) => {
-  res.status(200).send("Server up and running");
-});
-route.get("/imageai", (req, res) => {
   res.json({ msg: "hello" });
 });
 
 // post request
-route.post("/imageai", (req, res) => {
+route.post("/", (req, res) => {
   console.log("Request made");
   const { url } = req.body;
   data.append("image_url", url);
