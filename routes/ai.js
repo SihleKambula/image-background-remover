@@ -18,7 +18,7 @@ route.post("/", (req, res) => {
     method: "post",
     url: "https://api.removal.ai/3.0/remove",
     headers: {
-      "Rm-Token": "62cd59951a38b3.13811015",
+      "Rm-Token": "Your key",
       ...data.getHeaders(),
     },
     data: data,
